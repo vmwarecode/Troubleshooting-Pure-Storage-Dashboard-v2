@@ -1,0 +1,1015 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1539023425407,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "4adbb835-fbf2-4688-a892-dc78178d5b17",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Troubleshooting Pure Storage Arrays v2",
+      "namePath": "Custom Dashboards",
+      "rank": 222,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "64cab2a0-354f-4c68-b38b-b2c0966b44eb"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "2f533adc-e5b4-4c5a-be56-38abf2742d87"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "f8782493-08af-43fc-9802-5d4fb6c23706"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "811922f4-d7f3-4a25-8678-33a2727ab19c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "58e55cc8-7ee0-4179-a2d9-1b001123b973"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "bda8e3b5-4fbd-4a01-ac0e-939685e847af"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "bfc90fe6-1c18-4794-9ae7-18928a1d31f7"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "48ba29c8-18dc-48b3-a06e-b1421dff50a0"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "74f79d76-52d6-4bfa-810b-550c865db7bd"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "4d89c953-6524-41f3-a61f-6d1f31474591"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "widgetIdReceiver": "fc28798c-e0c3-4a48-af9a-fc0a97cda661"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 9,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7897-1",
+                        "isStringMetric": false,
+                        "label": "Capacity",
+                        "link": "",
+                        "metricKey": "Capacity|capacity",
+                        "metricName": "Capacity|Capacity",
+                        "metricUnitId": "gigabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "GB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7897-2",
+                        "isStringMetric": false,
+                        "label": "Shared Space",
+                        "link": "",
+                        "metricKey": "Capacity|shared_space",
+                        "metricName": "Capacity|Shared Space",
+                        "metricUnitId": "gigabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "GB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5542-1",
+                        "isStringMetric": false,
+                        "label": "Snapshot Space",
+                        "link": "",
+                        "metricKey": "Capacity|snapshot_space",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": "gigabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "GB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7897-3",
+                        "isStringMetric": false,
+                        "label": "Snapshot Space",
+                        "link": "",
+                        "metricKey": "Capacity|snapshot_space_ratio",
+                        "metricName": "Capacity|Snapshot Space",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7897-4",
+                        "isStringMetric": false,
+                        "label": "System Space",
+                        "link": "",
+                        "metricKey": "Capacity|system_space",
+                        "metricName": "Capacity|System Space",
+                        "metricUnitId": "gigabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "GB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7897-5",
+                        "isStringMetric": false,
+                        "label": "Total Provisioned Space",
+                        "link": "",
+                        "metricKey": "Capacity|total_provisioned_space",
+                        "metricName": "Capacity|Total Provisioned Space",
+                        "metricUnitId": "gigabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "GB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7897-6",
+                        "isStringMetric": false,
+                        "label": "Total Used Space",
+                        "link": "",
+                        "metricKey": "Capacity|total_used_space",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": "gigabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "GB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel5542-2",
+                        "isStringMetric": false,
+                        "label": "Total Used Space",
+                        "link": "",
+                        "metricKey": "Capacity|total_used_space_ratio",
+                        "metricName": "Capacity|Total Used Space",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7897-8",
+                        "isStringMetric": false,
+                        "label": "Volume Space",
+                        "link": "",
+                        "metricKey": "Capacity|volume_space",
+                        "metricName": "Capacity|Volume Space",
+                        "metricUnitId": "gigabyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "GB",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "5. What does capacity look like for the selected Array (double click for details)?",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 2,
+               "w": 12,
+               "x": 1,
+               "y": 10
+            },
+            "height": 96,
+            "id": "64cab2a0-354f-4c68-b38b-b2c0966b44eb",
+            "title": "5. What does capacity look like for the selected Array (double click for details)?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|read_latency",
+               "metricLabel": "",
+               "metricName": "Performance|Read Latency (μs)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "7. What has read latency looked like for the selected Array?",
+               "undefined": "Performance|Read Latency (μs)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 16
+            },
+            "height": 210,
+            "id": "2f533adc-e5b4-4c5a-be56-38abf2742d87",
+            "states": [
+               {
+                  "key": "permDateRange_HealthChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_2f533adc-e5b4-4c5a-be56-38abf2742d87",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_2f533adc-e5b4-4c5a-be56-38abf2742d87",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "7. What has read latency looked like for the selected Array?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|read_bandwidth",
+               "metricLabel": "",
+               "metricName": "Performance|Read Bandwidth (B/s)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "11. What has read bandwidth looked like for the selected Array?",
+               "undefined": "Performance|Read Bandwidth (B/s)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 24
+            },
+            "height": 210,
+            "id": "f8782493-08af-43fc-9802-5d4fb6c23706",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_f8782493-08af-43fc-9802-5d4fb6c23706",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "11. What has read bandwidth looked like for the selected Array?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Purity Version",
+                     "metricKey": "Details|version",
+                     "metricName": "Details|Version",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Active Alerts",
+                     "metricKey": "System Attributes|total_alert_count",
+                     "metricName": "vRealize Operations Generated|Total Alert Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Critical Alerts",
+                     "metricKey": "System Attributes|alert_count_critical",
+                     "metricName": "vRealize Operations Generated|Alert Count Critical",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Immediate Alerts",
+                     "metricKey": "System Attributes|alert_count_immediate",
+                     "metricName": "vRealize Operations Generated|Alert Count Immediate",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Warning Alerts",
+                     "metricKey": "System Attributes|alert_count_warning",
+                     "metricName": "vRealize Operations Generated|Alert Count Warning",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Total Capacity (B)",
+                     "metricKey": "Capacity|capacity",
+                     "metricName": "Capacity|Capacity (B)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Total Used Space (B)",
+                     "metricKey": "Capacity|total_used_space",
+                     "metricName": "Capacity|Total Used Space (B)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Total Used Space (%)",
+                     "metricKey": "Capacity|total_used_space_ratio",
+                     "metricName": "Capacity|Total Used Space (%)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Number of Pure Hosts",
+                     "metricKey": "Details|host_count",
+                     "metricName": "Details|Host Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Number of Pure Volumes",
+                     "metricKey": "Details|volume_count",
+                     "metricName": "Details|Volume Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Number of Pure Volume Groups",
+                     "metricKey": "Details|volume_group_count",
+                     "metricName": "Details|Volume Group Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Number of Pure Volume Snapshots",
+                     "metricKey": "Details|volume_snapshot_count",
+                     "metricName": "Details|Volume Snapshot Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "1. Search for a Pure Storage Arrays (use filter)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+            "states": [
+               {
+                  "key": "permResGrid_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A148%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A116%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A118%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A116%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A138%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A125%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A140%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A168%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A172%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A169%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A187%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A238%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A253%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A183%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_Details%252525257Cversion%2525255Edirection%2525253Ds%252525253AASC"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_7308d8f0-0600-4cd4-a3d7-f75002ea5123",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "1. Search for a Pure Storage Arrays (use filter)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|read_iops",
+               "metricLabel": "",
+               "metricName": "Performance|Read IOPS (reads/s)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "9. What has read IOPs looked like for the selected Array?",
+               "undefined": "Performance|Read IOPS (reads/s)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 20
+            },
+            "height": 210,
+            "id": "811922f4-d7f3-4a25-8678-33a2727ab19c",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_811922f4-d7f3-4a25-8678-33a2727ab19c",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "9. What has read IOPs looked like for the selected Array?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|write_latency",
+               "metricLabel": "",
+               "metricName": "Performance|Write Latency (μs)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "8.  What has write latency looked like for the selected Array?",
+               "undefined": "Performance|Write Latency (μs)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 16
+            },
+            "height": 210,
+            "id": "58e55cc8-7ee0-4179-a2d9-1b001123b973",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_58e55cc8-7ee0-4179-a2d9-1b001123b973",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange_HealthChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_58e55cc8-7ee0-4179-a2d9-1b001123b973",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "8.  What has write latency looked like for the selected Array?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|write_iops",
+               "metricLabel": "",
+               "metricName": "Performance|Write IOPS (writes/s)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "10.  What has write IOPs looked like for the selected Array?",
+               "undefined": "Performance|Write IOPS (writes/s)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 20
+            },
+            "height": 210,
+            "id": "bda8e3b5-4fbd-4a01-ac0e-939685e847af",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_bda8e3b5-4fbd-4a01-ac0e-939685e847af",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "10.  What has write IOPs looked like for the selected Array?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|write_bandwidth",
+               "metricLabel": "",
+               "metricName": "Performance|Write Bandwidth (B/s)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "12.  What has write bandwidth looked like for the selected Array?",
+               "undefined": "Performance|Write Bandwidth (B/s)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 24
+            },
+            "height": 210,
+            "id": "bfc90fe6-1c18-4794-9ae7-18928a1d31f7",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_bfc90fe6-1c18-4794-9ae7-18928a1d31f7",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "12.  What has write bandwidth looked like for the selected Array?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-2",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|read_bandwidth",
+                        "metricName": "Performance|Read Bandwidth",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-3",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|read_iops",
+                        "metricName": "Performance|Read IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-4",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|read_latency",
+                        "metricName": "Performance|Read Latency",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-5",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|san_read_latency",
+                        "metricName": "Performance|SAN Read Latency",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-6",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|san_write_latency",
+                        "metricName": "Performance|SAN Write Latency",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-7",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|total_bandwidth",
+                        "metricName": "Performance|Total Bandwidth",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-8",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|total_iops",
+                        "metricName": "Performance|Total IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-9",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|write_bandwidth",
+                        "metricName": "Performance|Write Bandwidth",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-10",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|write_iops",
+                        "metricName": "Performance|Write IOPS",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9113-11",
+                        "isStringMetric": false,
+                        "metricKey": "Performance|write_latency",
+                        "metricName": "Performance|Write Latency",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "6.  How is the selected Array performing (double click for details)?",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 12
+            },
+            "height": 210,
+            "id": "48ba29c8-18dc-48b3-a06e-b1421dff50a0",
+            "title": "6.  How is the selected Array performing (double click for details)?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel6746-1",
+                     "isStringMetric": false,
+                     "metricKey": "Performance|queue_depth",
+                     "metricName": "Performance|Queue Depth",
+                     "metricUnitId": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": null
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "2.  What does queue depth look like for the selected Array?"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 5
+            },
+            "height": 267,
+            "id": "74f79d76-52d6-4bfa-810b-550c865db7bd",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_74f79d76-52d6-4bfa-810b-550c865db7bd",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_74f79d76-52d6-4bfa-810b-550c865db7bd",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_74f79d76-52d6-4bfa-810b-550c865db7bd",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_74f79d76-52d6-4bfa-810b-550c865db7bd",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_74f79d76-52d6-4bfa-810b-550c865db7bd",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_74f79d76-52d6-4bfa-810b-550c865db7bd",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "2.  What does queue depth look like for the selected Array?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel4330-1",
+                     "isStringMetric": false,
+                     "metricKey": "Capacity Efficiency|data_reduction_ratio",
+                     "metricName": "Capacity Efficiency|Data Reduction",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "3.  What does data reduction look like for the selected Array?"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 5,
+               "y": 5
+            },
+            "height": 267,
+            "id": "4d89c953-6524-41f3-a61f-6d1f31474591",
+            "states": [
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_4d89c953-6524-41f3-a61f-6d1f31474591",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_4d89c953-6524-41f3-a61f-6d1f31474591",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_4d89c953-6524-41f3-a61f-6d1f31474591",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_4d89c953-6524-41f3-a61f-6d1f31474591",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_4d89c953-6524-41f3-a61f-6d1f31474591",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_4d89c953-6524-41f3-a61f-6d1f31474591",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "3.  What does data reduction look like for the selected Array?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel4022-1",
+                     "isStringMetric": false,
+                     "metricKey": "Details|parity",
+                     "metricName": "Details|Parity",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "4.  What does parity look like for the selected Array?"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 9,
+               "y": 5
+            },
+            "height": 267,
+            "id": "fc28798c-e0c3-4a48-af9a-fc0a97cda661",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_fc28798c-e0c3-4a48-af9a-fc0a97cda661",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_fc28798c-e0c3-4a48-af9a-fc0a97cda661",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_fc28798c-e0c3-4a48-af9a-fc0a97cda661",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_fc28798c-e0c3-4a48-af9a-fc0a97cda661",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_fc28798c-e0c3-4a48-af9a-fc0a97cda661",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_4adbb835-fbf2-4688-a892-dc78178d5b17_fc28798c-e0c3-4a48-af9a-fc0a97cda661",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "4.  What does parity look like for the selected Array?",
+            "type": "MetricChart"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_array"
+   }]},
+   "uuid": "216f52fa-06c4-4cca-bd70-3b8075399f43"
+}
